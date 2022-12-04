@@ -980,12 +980,12 @@ textarea:focus {
     }
 
     .menu-burger__header {
-        position: relative;
+        position: absolute;
         width: 40px;
         height: 35px;
         display: block;
         margin-right: 10px;
-        left: 90%;
+        right: 0%;
     }
 
     .menu-burger__header span,
@@ -1069,18 +1069,17 @@ textarea:focus {
         width: 100%;
     }
 
-    .mailimg {
-        margin-left: 20px;
+    .mailing {
+        padding-left: 20px;
     }
 
     .mail {
         width: 100%;
-        margin-left: 20px;
     }
 
     .text {
-        width: 84%;
-        padding-right: 20px;
+        width: 92%;
+        padding-left: 0;
     }
 
     .subscription {
@@ -1115,9 +1114,6 @@ textarea:focus {
         width: 100%;
     }
 
-    .social-network {
-        margin-left: 20px;
-    }
 }
 
 @media (min-width: 768px) and (max-width: 1200px) {
