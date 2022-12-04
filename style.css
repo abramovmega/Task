@@ -1062,7 +1062,7 @@ textarea:focus {
     }
 
     .search {
-        width: 85%;
+        width: 92%;
     }
 
     .field {
@@ -1074,17 +1074,17 @@ textarea:focus {
     }
 
     .mail {
-        width: 100%;
+        width: 92%;
         margin-left: 20px;
     }
 
     .text {
-        width: 85%;
+        width: 92%;
         padding-right: 20px;
     }
 
     .subscription {
-        width: 92%;
+        width: 96%;
     }
 
     .tags-url {
