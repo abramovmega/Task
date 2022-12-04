@@ -1041,6 +1041,11 @@ textarea:focus {
         align-items: center;
     }
 
+    .preview-img {
+        width: 100%;
+        margin: 0;
+    }
+
     .info {
         margin-left: 20px;
         margin-top: 20px;
