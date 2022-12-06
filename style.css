@@ -2,6 +2,7 @@ html,
 body {
     margin: 0;
     padding: 0;
+    min-width: 234px;
 }
 
 @font-face {
@@ -553,7 +554,6 @@ ul.themes>li {
     border: solid 3px #b59f5b;
     padding: 35px 20px;
     width: 305px;
-    height: 200px;
 }
 
 .name_product {
@@ -935,7 +935,199 @@ textarea:focus {
     }
 }
 
-@media (min-width:360px) and (max-width: 767px) {
+@media (max-width: 359px) {
+    .header {
+        background-image: url("img/banner-mobile.jpg");
+    }
+
+    .header:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #000000;
+        opacity: 0.55;
+        z-index: -1;
+    }
+
+
+    .logotype {
+        width: 100%;
+        padding-top: 202px;
+    }
+
+    h1.title {
+        font-size: 24px;
+        margin-top: 0px;
+        padding: 42px 42px 210px;
+        line-height: 35px;
+    }
+
+    .navbar {
+        padding-top: 45px;
+    }
+
+    .title {
+        font-size: 26px;
+        line-height: 0;
+        padding: 42px 42px 210px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu-burger__header {
+        position: absolute;
+        width: 40px;
+        height: 35px;
+        display: block;
+        margin-right: 10px;
+        right: 0%;
+    }
+
+    .menu-burger__header span,
+    .menu-burger__header:after,
+    .menu-burger__header:before {
+        height: 3px;
+        width: 100%;
+        position: absolute;
+        background: #ffffff;
+        margin: 0 auto;
+    }
+
+    .menu-burger__header span {
+        top: 50px;
+    }
+
+    .menu-burger__header:after,
+    .menu-burger__header:before {
+        content: '';
+    }
+
+    .menu-burger__header:after {
+        bottom: 2px;
+    }
+
+    .menu-burger__header:before {
+        top: 40px;
+    }
+
+    .trends_title {
+        margin: 35px;
+    }
+
+    .trends {
+        flex-direction: column;
+    }
+
+    .trends_post {
+        margin-top: 3px;
+    }
+
+    .post-list {
+        width: 100%;
+    }
+
+    .content {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .article {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .preview-img {
+        width: 100%;
+        margin: 0;
+    }
+
+    .info {
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .sidebar {
+        margin-left: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sidebar-article {
+        margin: 20px;
+    }
+
+    .form {
+        margin-left: 20px;
+    }
+
+    .search {
+        width: 92%;
+    }
+
+    .field {
+        width: 100%;
+    }
+
+    .mailing {
+        padding-left: 20px;
+    }
+
+    .mail {
+        width: 100%;
+    }
+
+    .text {
+        width: 92%;
+        padding-left: 0;
+    }
+
+    .subscription {
+        width: 92%;
+    }
+
+    .tags-url {
+        margin-left: 20px;
+    }
+
+    .themes {
+        margin-left: 20px;
+    }
+
+    .shop {
+        flex-direction: column;
+    }
+
+    .product_post {
+        width: 100%;
+        margin-top: 30px;
+        align-items: center;
+        flex-direction: column
+    }
+
+    .product_post_img {
+        margin-bottom: -35px;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .product_info {
+        width: calc(100% - 46px);
+    }
+
+    .contacts {
+        width: 100%;
+    }
+
+}
+
+
+@media (max-width: 767px) {
     .header {
         background-image: url("img/banner-mobile.jpg");
     }
