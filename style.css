@@ -1334,6 +1334,10 @@ textarea:focus {
 
     h1.title {
         font-size: 40px;
+        width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+
     }
 
     .menu {
@@ -1439,6 +1443,12 @@ textarea:focus {
 }
 
 @media (min-width: 1201px) {
+
+    h1.title {
+        width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
     .trends_post {
         margin-left: 3px;
